@@ -1,5 +1,5 @@
 # Sistema de delivery para restaurante
-    - Projeto de um sistema de delivery para restaurantes ainda em construção
+    - Projeto backend de um sistema de delivery para restaurantes ainda em construção
 
 # Andamento do projeto
     - Implementado as entidades

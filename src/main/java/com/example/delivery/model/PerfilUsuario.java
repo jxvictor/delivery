@@ -11,7 +11,7 @@ import java.io.Serializable;
 @Entity
 @Data @AllArgsConstructor @NoArgsConstructor
 @Table(name = "roles")
-public class Role implements Serializable {
+public class PerfilUsuario implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -22,5 +22,5 @@ public class Role implements Serializable {
 
     @Enumerated(EnumType.STRING)
     @Column(length = 20)
-    private ERole name;
+    private EPerfilUsuario name;
 }

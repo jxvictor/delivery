@@ -20,7 +20,7 @@ import java.util.Set;
                 @UniqueConstraint(columnNames = "username"),
                 @UniqueConstraint(columnNames = "email")
         })
-public class User implements Serializable {
+public class Usuario implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -50,7 +50,7 @@ public class User implements Serializable {
     @JoinTable(  name = "user_roles",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
-    private Set<Role> roles = new HashSet<>();
+    private Set<PerfilUsuario> roles = new HashSet<>();
 
    // @Enumerated(EnumType.STRING)
     // private PerfilUsuario perfil;
