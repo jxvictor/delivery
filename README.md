@@ -3,7 +3,7 @@
 
 # Andamento do projeto
     - Implementado as entidades
-    - Implementado integração básica de até o momento de consulta de endereço (API ViaCEP)
+    - Implementado integração básica até o momento de consulta de endereço (API ViaCEP)
     - Implementação ainda em andamento de autenticação/autorização em JWT
 
 # Dependências do projeto
