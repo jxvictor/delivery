@@ -1,7 +1,6 @@
 package com.example.delivery.service;
 
 import com.example.delivery.model.Pagamento;
-import com.example.delivery.model.Pedido;
 import com.example.delivery.repository.PagamentoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
