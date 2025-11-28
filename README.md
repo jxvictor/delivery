@@ -4,6 +4,7 @@
 # Andamento do projeto
     - Implementado as entidades
     - Implementado integração básica até o momento de consulta de endereço (API ViaCEP)
+    - Implementado CRUD básico de Produto
     - Implementação ainda em andamento de autenticação/autorização em JWT
 
 # Dependências do projeto
