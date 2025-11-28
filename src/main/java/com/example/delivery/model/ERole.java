@@ -1,5 +1,5 @@
 package com.example.delivery.model;
 
-public enum EPerfilUsuario {
+public enum ERole {
     CLIENTE, RESTAURANTE, ENTREGADOR, ADMIN
 }

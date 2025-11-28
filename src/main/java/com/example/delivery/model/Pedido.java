@@ -18,7 +18,7 @@ public class Pedido implements Serializable {
 
 
     @ManyToOne
-    private Usuario cliente;
+    private User cliente;
 
 
     @ManyToOne
